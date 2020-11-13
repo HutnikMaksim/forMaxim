@@ -1,5 +1,7 @@
 package by.it.hutnik.jd00_01_my_tests.tasks_from_UPIT;
-
+/* Задать промежуток временив секундах в виде переменной. Следует вывести его на экран в виде часов, минут и секунд,
+суток и недель
+ */
 import java.util.Scanner;
 
 public class Task5 {

@@ -1,5 +1,7 @@
 package by.it.hutnik.jd00_01_my_tests.tasks_from_UPIT;
-
+/*Создать метод с одним целочисленным параметром. Метод должен определить,
+является ли последняя цифра числа семёркой и вернуть boolean значение.
+ */
 import java.util.Scanner;
 
 public class Task6 {
