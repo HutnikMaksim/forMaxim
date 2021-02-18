@@ -50,19 +50,19 @@ public class TaskC {
         boolean end = false;
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
-                if(begin && arr[i][j]>0){
-                  end = true;
-                  break;
+                if(begin && arr[i][j]>0){ // если begin==true И значение массива arr > 0
+                  end = true; // то end присваиваем значение true
+                  break; // выходим из условия
                 }
-                if(begin) {
-                    sum+=arr[i][j];
+                if(begin) {  // если begin == true, то...
+                    sum+=arr[i][j]; // к sum прибавляем значение массива arr
                 }
-                if(arr[i][j]>0 && begin == false){
-                    begin = true;
+                if(arr[i][j]>0 && begin == false){  // если значение массива arr > 0 И begin == false, то 
+                    begin = true; // begin присваиваем значение true
                 }
             }
-            if(end){
-                sum+=sumLine;
+            if(end){  // если end == true
+                sum+=sumLine;  // 
             }
             begin = false;
             end = false;
