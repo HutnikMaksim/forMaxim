@@ -21,6 +21,27 @@ public class ArraySorted {
         System.out.println();
         Collections.reverse(mass);
         System.out.print(mass);
+        System.out.println();
+
+        List<String> str = new ArrayList<>();
+        str.add("Honor");
+        str.add("Knife");
+        str.add("Film");
+        str.add("Ass");
+        str.add("Winter");
+        str.add("Cross");
+        str.add("Fox");
+        str.add("Time");
+        str.add("Java");
+        str.add("Dodge");
+        str.add("Byte");
+        str.add("Rose");
+
+        Collections.sort(str);
+        System.out.print(str);
+        System.out.println();
+        Collections.reverse(str);
+        System.out.print(str);
     }
 
 }
