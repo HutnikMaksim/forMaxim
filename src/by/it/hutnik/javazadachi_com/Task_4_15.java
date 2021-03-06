@@ -9,6 +9,7 @@ package by.it.hutnik.javazadachi_com;
  */
 public class Task_4_15 {
     public static void main(String[] args) {
+        long timeStart = System.currentTimeMillis();
         int a = 0;
         int b = 0;
         int sumA = 0;
@@ -52,6 +53,19 @@ public class Task_4_15 {
             sumB = 0;
         }
         System.out.println();
-        System.out.print("Количество счастливых билетов в серии от 000'001 до 999'999 = " + res);
+        System.out.println("Количество счастливых билетов в серии от 000'001 до 999'999 = " + res);
+        long timeStop = System.currentTimeMillis() - timeStart;
+
+        String strSec;
+        if(timeStop % 10 == 1){
+            strSec = " миллисекунда";
+        } else{
+            if(timeStop % 10 == 0 || timeStop % 10 > 4){
+                strSec = " миллисекунд";
+            } else {
+                strSec = " миллисекунды";
+            }
+        }
+        System.out.println("Время затраченное на подсчёт = " + timeStop + strSec);
     }
 }
