@@ -14,7 +14,7 @@ public class Task_4_18 {
         int count = 0;
         for (int i = 4; i < 100000; i++) {
             String str = String.valueOf(i);
-            if(str.contains("4") || str.contains("13")) {
+            if(str.contains("4") | str.contains("13")) {
 
                 count ++;
                 System.out.printf("%5s)%6s ", count, str);
