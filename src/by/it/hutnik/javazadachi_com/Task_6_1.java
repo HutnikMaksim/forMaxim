@@ -4,16 +4,21 @@ package by.it.hutnik.javazadachi_com;
 отделяя один элемент от другого пробелом, а затем в столбик (отделяя один элемент от другого началом новой строки).
 Перед созданием массива подумайте, какого он будет размера.
  */
-public class Task_5_5 {
+public class Task_6_1 {
     public static void main(String[] args) {
         int[] mass = new int[10];
+        int j = 0;
         for (int i = 2; i <= 20; i = i + 2) {
-            System.out.print(i + " ");
+            mass[j] = i;
+            System.out.print(mass[j] + " ");
+            j++;
         }
+        j = 0;
         System.out.println();
         for (int i = 2; i <= 20; i = i + 2) {
-            System.out.println(i);
+            mass[j] = i;
+            System.out.println(mass[j] + " ");
+            j++;
         }
-
     }
 }
