@@ -9,7 +9,7 @@ public class Task_6_3 {
         int count = 0;
         for (int i = 0; i < 15; i++) {
             mass[i] = (int)(Math.random() * 9);
-            if(mass[i] % 2 == 0){
+            if(mass[i] % 2 == 0 && mass[i] != 0){
                 count++;
             }
             System.out.print(mass[i] + " ");
