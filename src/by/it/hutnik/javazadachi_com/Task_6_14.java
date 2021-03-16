@@ -17,7 +17,7 @@ public class Task_6_14 {
                 mass[i][j] = (int)(Math.random() * 90 + 10);
             }
         }
-        for(int r[] : mass){
+        for(int[] r : mass){
             System.out.println(Arrays.toString(r));
         }
     }
