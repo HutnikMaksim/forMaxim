@@ -12,19 +12,19 @@ public class Task_2_6 {
         int temp1 = 0;
         int temp2 = 0;
         int temp3 = 0;
-        if(a < b){
+        if(a < b){ // если 34 < 21
             temp1 = a;
             temp2 = b;
         } else {
-            temp1 = b;
-            temp2 = a;
+            temp1 = b; // = 21
+            temp2 = a; // = 34
         }
-        if(temp2 < c){
+        if(temp2 < c){ // если 34 < 18
             temp3 = c;
-        } else if(temp1 > c){
-            temp3 = temp2;
-            temp2 = temp1;
-            temp1 = c;
+        } else if(temp1 > c){ // если 21 > 18
+            temp3 = temp2; // = 34
+            temp2 = temp1; // = 21
+            temp1 = c; // = 18
         } else {
             temp3 = temp2;
             temp2 = c;

@@ -13,16 +13,16 @@ import java.util.Arrays;
  */
 public class Task_6_9 {
     public static void main(String[] args) {
-        double[] massA = new double[10];
-        double[] massB = new double[10];
+        int[] massA = new int[10];
+        int[] massB = new int[10];
         double[] massRes = new double[10];
         int count = 0;
         for (int i = 0; i < massA.length; i++) {
-            double digitA = (int)(Math.random() * 9 + 1);
+            int digitA = (int)(Math.random() * 9 + 1);
             massA[i] = digitA;
-            double digitB = (int)(Math.random() * 9 + 1);
+            int digitB = (int)(Math.random() * 9 + 1);
             massB[i] = digitB;
-            massRes[i] = (digitA / digitB);
+            massRes[i] = (double) digitA / digitB;
         }
         System.out.println("1-й массив " + Arrays.toString(massA));
         System.out.println("2-й массив " + Arrays.toString(massB));

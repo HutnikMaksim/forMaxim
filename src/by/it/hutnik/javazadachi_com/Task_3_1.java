@@ -13,11 +13,10 @@ public class Task_3_1 {
 
         for (int i = 1; i < 100; i++) {
             float f = (float) rnd.nextFloat() * 6 - 3;
-            System.out.printf("%10.5f ", f);
+            System.out.printf("%10.6f ", f);
             if(i % 10 == 0){
                 System.out.println();
             }
         }
-
     }
 }

@@ -15,9 +15,5 @@ public class Task_3_2 {
             int digit = (int) (Math.random() * (n * 2 + 2) - Math.round(n + 1));
             System.out.print(digit + " ");
         }
-
-//        Random rnd = new Random();
-//        int digit = rnd.nextInt() * (n + 1) - n / 2;
-
     }
 }
