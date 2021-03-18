@@ -9,7 +9,7 @@ Cоздать двумерный массив из 7 строк по 4 стол�
  */
 public class Task_6_16 {
     public static void main(String[] args) {
-        int temp = 0;
+        int temp = 1;
         int value = 0;
         int maxValue = 0;
         int indexRow = 0;
@@ -18,20 +18,18 @@ public class Task_6_16 {
             for(int j = 0; j < mass[i].length; j++){
                 mass[i][j] = (int)(Math.random() * 11 - 5);
                 value = mass[i][j];
-                temp += (Math.abs(value));
-                }
+                temp *= (Math.abs(value));
+            }
             if(maxValue < temp){
                 maxValue = temp;
                 indexRow = i;
-                temp = 0;
-
             }
-            System.out.println(maxValue);
+            temp = 1;
 
         }
         for (int[] x : mass){
             System.out.println(Arrays.toString(x));
         }
-        System.out.println("Index maximum values row: " + (indexRow - 1) + " Summa = " + maxValue);
+        System.out.println("Index maximum values row: " + (indexRow) + " multi = " + maxValue);
     }
 }
