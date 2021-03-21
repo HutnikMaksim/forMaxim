@@ -11,29 +11,40 @@ import java.util.Scanner;
 
 public class Task_6_12 {
     public static void main(String[] args) {
-        int[] mass = new int[12];
+        int massLength = 12;
+        int[] mass = new int[massLength];
         int value;
         int plusValue = 0;
         int minusValue = 0;
         int j = 0;
-        for (int i = 0; i < 1000; i++) {
-            value = (int) (Math.random() * 21 - 10);
+        for (int i = 0; i < massLength; i++) {
+            value = 10 - (int) (Math.random() * 21);
             if (value != 0) {
                 if (value > 0) {
                     plusValue++;
-                    if (plusValue < 7) {
+                    if (plusValue <= mass.length / 2) {
                         mass[j] = value;
                         j++;
+                    } else {
+                        i--;
+                        continue;
                     }
                 }
                 if (value < 0) {
                     minusValue++;
-                    if (minusValue < 7) {
+                    if (minusValue <= mass.length / 2) {
                         mass[j] = value;
                         j++;
+                    } else {
+                        i--;
+                        continue;
                     }
                 }
-                if(plusValue == 7 && minusValue == 7) break;
+                if(plusValue == mass.length + 1 && minusValue == mass.length + 1){
+                    break;
+                }
+            } else {
+                i--;
             }
 
         }
