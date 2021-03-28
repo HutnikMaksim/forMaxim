@@ -16,6 +16,8 @@ package by.it.hutnik.refabrishedTasks_AKhmelev.urok01_02;
 При выводе результатов в консоль отделяйте элементы строк одиночными
 пробелами, а сами строки - переносами \n
  */
+import by.it._examples_.jd01_08._01_Card.CardRunner;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -23,10 +25,8 @@ public class TaskC {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-        step2(step3(step1(n)));
-        step3(step1(n));
 
-
+        System.out.println("Summa = " + step2(step3(step1(n))));
     }
 
     public static int[][] step1(int n){
@@ -78,51 +78,103 @@ public class TaskC {
             max = 0;
             count = 0;
         }
-        System.out.printf("Summa = %4s %n", sum);
-        sum = 0;
-        count = 0;
         return sum;
     }
 
     static int[][] step3(int [][] arr){
-        int maxValue = 0;
+        int maxValue = Integer.MIN_VALUE;
         boolean flag = false;
-        int[] massRow = new int[arr.length];
-        int[] massCol = new int[arr[0].length];
 
-        for (int i = 0; i < arr.length; i++) { // перебор матрицы для вычисления максимального значения
+        int[] row = new int[arr.length];
+        int[] col = new int[arr[0].length];
+        //int[][] resArr = new int[row.length][col.length];
+        int[][] massive = new int[arr.length][arr[0].length];
+        for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
                 if(arr[i][j] > maxValue){
                     maxValue = arr[i][j];
                 }
             }
         }
-
         for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr[i].length; j++) {
+            for (int j = 0; j < arr[0].length; j++) {
                 if(arr[i][j] == maxValue){
-                    if(flag == false){
-                        massRow[i] = i + 1;
-                        flag = true;
-                    }
-                }
-                if(arr[i][j] == maxValue){
-                    massCol[j] = j + 1;
+                    row[i] = i + 1;
+                    col[j] = j + 1;
+                    System.out.println("row = " + row[i] + " column = " + col[j]);
                 }
             }
-            flag = false;
         }
-
         for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr[i].length; j++) {
-                if(massRow[i] != 0){
+            for (int j = 0; j < arr[0].length; j++) {
+                if(row[i] != 0){
+                    flag = true;
                     break;
                 }
-                if(massCol[j] == 0)
-                System.out.printf("%4s", arr[i][j]);
+                if(col[j] == 0){
+                    //resArr[i][j] = arr[i][j];
+                    System.out.printf("%4s ", arr[i][j]);
+                }
             }
-            System.out.println();
+            if(flag == false){
+                System.out.println();
+            }
+            flag = false;
+
         }
-        return arr;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//        int maxValue = 0;
+//        boolean flag = false;
+//        int[] massRow = new int[arr.length];
+//        int[] massCol = new int[arr[0].length];
+//
+//        for (int i = 0; i < arr.length; i++) { // перебор матрицы для вычисления максимального значения
+//            for (int j = 0; j < arr[i].length; j++) {
+//                if(arr[i][j] > maxValue){
+//                    maxValue = arr[i][j];
+//                }
+//            }
+//        }
+//
+//        for (int i = 0; i < arr.length; i++) {
+//            for (int j = 0; j < arr[i].length; j++) {
+//                if(arr[i][j] == maxValue){
+//                    if(flag == false){
+//                        massRow[i] = i + 1;
+//                        flag = true;
+//                    }
+//                }
+//                if(arr[i][j] == maxValue){
+//                    massCol[j] = j + 1;
+//                }
+//            }
+//            flag = false;
+//        }
+//
+//        for (int i = 0; i < arr.length; i++) {
+//            for (int j = 0; j < arr[i].length; j++) {
+//                if(massRow[i] != 0){
+//                    break;
+//                }
+//                if(massCol[j] == 0)
+//                System.out.printf("%4s", arr[i][j]);
+//            }
+//            System.out.println();
+//        }
+       return arr;
     }
 }
