@@ -1,7 +1,6 @@
-package hutnik.maksim.meloch;
+package hutnik.maksim.javaForJune;
 
 import javax.swing.*;
-import java.util.Timer;
 
 public class DialogWindows {
     public static void main(String[] args) throws InterruptedException {

@@ -1,4 +1,4 @@
-package hutnik.maksim.meloch.reloadingMetods;
+package hutnik.maksim.javaForJune.reloadingMetods;
 
 public class Obj_Metods {
     int number;

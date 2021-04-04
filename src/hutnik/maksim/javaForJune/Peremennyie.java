@@ -1,4 +1,4 @@
-package hutnik.maksim.meloch;
+package hutnik.maksim.javaForJune;
 
 import javax.swing.*;
 

@@ -1,4 +1,4 @@
-package hutnik.maksim.meloch.objects_klass_metods;
+package hutnik.maksim.javaForJune.objects_klass_metods;
 
 public class ObjektKlass {
     int numer;

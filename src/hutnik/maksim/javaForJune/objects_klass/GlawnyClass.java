@@ -1,4 +1,4 @@
-package hutnik.maksim.meloch.objects_klass;
+package hutnik.maksim.javaForJune.objects_klass;
 
 public class GlawnyClass {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package hutnik.maksim.meloch.metod_Constructor;
+package hutnik.maksim.javaForJune.metod_Constructor;
 
 public class ObjContructor {
     int number;

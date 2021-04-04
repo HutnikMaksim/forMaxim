@@ -1,4 +1,4 @@
-package hutnik.maksim.meloch.static_Metods_Polya;
+package hutnik.maksim.javaForJune.static_Metods_Polya;
 
 public class Runner {
     public static void main(String[] args) {

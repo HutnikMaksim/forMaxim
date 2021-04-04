@@ -1,4 +1,4 @@
-package hutnik.maksim.meloch.static_Metods_Polya;
+package hutnik.maksim.javaForJune.static_Metods_Polya;
 
 public class MyClass {
     static  int rost = 188;

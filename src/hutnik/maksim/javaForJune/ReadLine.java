@@ -1,6 +1,5 @@
-package hutnik.maksim.meloch;
+package hutnik.maksim.javaForJune;
 
-import javax.swing.*;
 import java.util.Scanner;
 
 public class ReadLine {

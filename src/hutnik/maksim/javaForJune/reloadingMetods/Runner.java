@@ -1,6 +1,4 @@
-package hutnik.maksim.meloch.reloadingMetods;
-
-import hutnik.maksim.meloch.objects_klass.Obj_Polya;
+package hutnik.maksim.javaForJune.reloadingMetods;
 
 public class Runner {
     public static void main(String[] args) {
