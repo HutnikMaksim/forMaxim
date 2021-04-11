@@ -3,7 +3,7 @@ package by.it.hutnik.javazadachi_com;
 Выведите на экран первые 11 членов последовательности Фибоначчи. Напоминаем, что первый и второй члены
 последовательности равны единицам, а каждый следующий — сумме двух предыдущих.
  */
-public class Task_4_11 {
+class Task_4_11 {
     public static void main(String[] args) {
         int a = 1;
         int f = 1;

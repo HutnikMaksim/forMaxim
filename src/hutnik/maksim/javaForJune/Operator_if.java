@@ -2,7 +2,7 @@ package hutnik.maksim.javaForJune;
 
 import javax.swing.*;
 
-public class Operator_if {
+class Operator_if {
     public static void main(String[] args) {
         int number;
         String input, text, title, file;

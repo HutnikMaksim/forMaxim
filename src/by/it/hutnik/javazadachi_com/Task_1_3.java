@@ -7,7 +7,7 @@ import java.util.Scanner;
 Создайте программу, округляющую число n до ближайшего целого и выводящую результат на экран.
 
  */
-public class Task_1_3 {
+class Task_1_3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double a = scanner.nextDouble();

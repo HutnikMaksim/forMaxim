@@ -7,7 +7,7 @@ import java.util.Random;
 псевдослучайное число из промежутка [-3;3).
 
  */
-public class Task_3_1 {
+class Task_3_1 {
     public static void main(String[] args) {
         Random rnd = new Random();
 

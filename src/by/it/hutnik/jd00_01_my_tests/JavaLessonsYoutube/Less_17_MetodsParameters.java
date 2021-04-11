@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube;
 
-public class Less_17_MetodsParameters {
+class Less_17_MetodsParameters {
     public static void main(String[] args) {
         Detals detals = new Detals();
         detals.type = "HOUSE";

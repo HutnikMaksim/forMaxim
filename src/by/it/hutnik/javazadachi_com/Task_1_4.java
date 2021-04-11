@@ -7,7 +7,7 @@ import java.util.Scanner;
 Создайте программу, вычисляющую и выводящую на экран сумму цифр числа n.
 
  */
-public class Task_1_4 {
+class Task_1_4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int scalar = scanner.nextInt();

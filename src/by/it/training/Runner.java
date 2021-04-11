@@ -1,6 +1,6 @@
 package by.it.training;
 
-public class Runner {
+class Runner {
     public static void main(String[] args) {
         int number=0;
         for (int i = 0; i < 20; i++) {

@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube;
 
-public class TimeProgramProcess {
+class TimeProgramProcess {
     public static void main(String[] args) {
         long before = System.currentTimeMillis();
         for (int i = 0; i < 100; i++) {

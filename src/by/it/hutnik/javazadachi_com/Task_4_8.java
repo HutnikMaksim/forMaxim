@@ -5,7 +5,7 @@ import java.util.Scanner;
 /*
 Выведите на экран все положительные делители натурального числа, введённого пользователем с клавиатуры.
  */
-public class Task_4_8 {
+class Task_4_8 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите целое число: ");

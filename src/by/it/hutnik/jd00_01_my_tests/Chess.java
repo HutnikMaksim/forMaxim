@@ -2,7 +2,7 @@ package by.it.hutnik.jd00_01_my_tests;
 
 import java.time.*;
 
-public class Chess {
+class Chess {
     private static Object DayOfWeek;
     private static Object YearMonth;
 

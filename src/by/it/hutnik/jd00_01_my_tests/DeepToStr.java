@@ -2,7 +2,7 @@ package by.it.hutnik.jd00_01_my_tests;
 
 import java.util.Arrays;
 
-public class DeepToStr {
+class DeepToStr {
     public static void main(String[] args) {
         int n = 5;
         int[][] massiwDouble = new int[n][n];

@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube.Less_25_Extend;
 
-public class Dog extends Animals{
+class Dog extends Animals{
     public void say(){
         System.out.println("Dog say Wow");
     }

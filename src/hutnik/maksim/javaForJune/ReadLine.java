@@ -2,7 +2,7 @@ package hutnik.maksim.javaForJune;
 
 import java.util.Scanner;
 
-public class ReadLine {
+class ReadLine {
     public static void main(String[] args) {
 //        int year, age, birth;
 //        String result;

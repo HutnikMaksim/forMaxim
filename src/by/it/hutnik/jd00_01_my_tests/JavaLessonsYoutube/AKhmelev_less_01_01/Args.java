@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube.AKhmelev_less_01_01;
 
-public class Args {
+class Args {
     private String[] args;
 
     Args (String[] args){

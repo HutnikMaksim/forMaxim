@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube;
 
-public class PreloadTypes {
+class PreloadTypes {
     public static void main(String[] args) {
 
     byte b = 1, b1 = 1 + 3;

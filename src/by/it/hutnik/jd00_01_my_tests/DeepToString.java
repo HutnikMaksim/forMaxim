@@ -2,7 +2,7 @@ package by.it.hutnik.jd00_01_my_tests;
 
 import java.util.Arrays;
 
-public class DeepToString {
+class DeepToString {
     public static void main(String[] args) {
 
     int[][] m = step1(5);

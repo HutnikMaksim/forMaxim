@@ -7,7 +7,7 @@ package by.it.hutnik.javazadachi_com;
 (например, 00002 или 20202) — надо перепечатывать. Напишите программу,
 которая подсчитает сколько всего таких ошибочных табличек оказалось в бракованной партии.
  */
-public class Task_4_16 {
+class Task_4_16 {
     public static void main(String[] args) {
         int sum = 0;
         int count = 0;

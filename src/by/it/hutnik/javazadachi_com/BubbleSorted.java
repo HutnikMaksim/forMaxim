@@ -1,6 +1,6 @@
 package by.it.hutnik.javazadachi_com;
 
-public class BubbleSorted {//инициализация класса BubbleSorted
+class BubbleSorted {//инициализация класса BubbleSorted
     public static void main(String[] args) {//инициализация основного метода main
         int[] mass = new int[]{13, 4, 20, 36, 33, 6, 7, 11, 0 ,19}; // создание массива
         boolean flag; // инициализация булевой переменной ФЛАГ

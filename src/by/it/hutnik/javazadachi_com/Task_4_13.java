@@ -10,7 +10,7 @@ import java.util.Scanner;
 не зря же я проходил раздел преобразования и раздел работы со строками. Однако сразу моих знаний не хватило,
 чтобы преобразовать числовой символ char в аналогичное число типа int. Пришлось изголяться...
  */
-public class Task_4_13 {
+class Task_4_13 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); // инициализация сканера
         String str = scanner.nextLine(); // преобразование ввода в строку str

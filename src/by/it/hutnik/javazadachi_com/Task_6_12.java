@@ -9,7 +9,7 @@ package by.it.hutnik.javazadachi_com;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Task_6_12 {
+class Task_6_12 {
     public static void main(String[] args) {
         int massLength = 12;
         int[] mass = new int[massLength];

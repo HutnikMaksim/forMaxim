@@ -6,7 +6,7 @@ import java.util.Scanner;
 Для введённого пользователем с клавиатуры натурального числа посчитайте сумму всех его цифр
 (заранее не известно сколько цифр будет в числе).
  */
-public class Task_4_12 {
+class Task_4_12 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         long a = scanner.nextLong();

@@ -4,7 +4,7 @@ package by.it.hutnik.javazadachi_com;
 число и его наибольшую цифру.
 
  */
-public class Task_2_5 {
+class Task_2_5 {
     public static void main(String[] args) {
 
         for (int i = 1; i <= 420; i++) {

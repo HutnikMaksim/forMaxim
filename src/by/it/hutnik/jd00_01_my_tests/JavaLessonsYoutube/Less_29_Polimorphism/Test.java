@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube.Less_29_Polimorphism;
 
-public class Test {
+class Test {
     public static void main(String[] args) {
         Animal animal = new Animal();
         Dog dog = new Dog();

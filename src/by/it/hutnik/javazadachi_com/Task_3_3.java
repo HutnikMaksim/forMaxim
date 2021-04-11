@@ -9,7 +9,7 @@ import java.util.Scanner;
 3. В переменные a и b записаны целые числа, при этом b больше a. Создайте программу, которая будет генерировать и
 выводить на экран целое псевдослучайное число из отрезка [a;b].
  */
-public class Task_3_3 {
+class Task_3_3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();

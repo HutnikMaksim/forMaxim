@@ -1,5 +1,5 @@
 package by.it.training;
 
-public class Parking {
+class Parking {
     public static boolean isBuisy;
 }

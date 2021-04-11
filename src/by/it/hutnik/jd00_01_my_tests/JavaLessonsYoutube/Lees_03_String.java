@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube;
 
-public class Lees_03_String {
+class Lees_03_String {
     public static void main(String[] args) {
         String s = "I go to ";
         String s1 = "school";

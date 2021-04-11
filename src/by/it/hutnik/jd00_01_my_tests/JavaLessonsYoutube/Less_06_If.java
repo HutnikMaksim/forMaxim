@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube;
 
-public class Less_06_If {
+class Less_06_If {
     public static void main(String[] args) {
         int i = 5;
         int j = 10;

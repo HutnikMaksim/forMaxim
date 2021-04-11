@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube.AKhmelev_less_01_01;
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         Hello hello = new Hello();
         hello.printSlogan();

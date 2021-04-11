@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube;
 
-public class Less_16_Return {
+class Less_16_Return {
     public static void main(String[] args) {
         Persona persons1 = new Persona();
         persons1.name = "Max";

@@ -3,7 +3,7 @@ package by.it.hutnik.javazadachi_com;
 Создайте массив из 15 случайных целых чисел из отрезка [0;9]. Выведите массив на экран.
 Подсчитайте сколько в массиве чётных элементов и выведете это количество на экран на отдельной строке.
  */
-public class Task_6_3 {
+class Task_6_3 {
     public static void main(String[] args) {
         int[] mass = new int[15];
         int count = 0;

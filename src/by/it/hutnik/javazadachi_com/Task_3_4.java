@@ -2,7 +2,7 @@ package by.it.hutnik.javazadachi_com;
 /*
 4. Вычислить и вывести на экран косинусы углов в 60, 45 и 40 градусов без использования функции Math.toDegrees(n).
  */
-public class Task_3_4 {
+class Task_3_4 {
     public static void main(String[] args) {
         int a = 40, b = 45, c = 60;
         double aRad = a * (Math.PI / 180);

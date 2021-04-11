@@ -2,7 +2,7 @@ package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube;
 
 import java.util.Date;
 
-public class Less_24_StringBuilder {
+class Less_24_StringBuilder {
     public static void main(String[] args) {
         long timeStart1 = System.currentTimeMillis();
         String str1 = "Test ";

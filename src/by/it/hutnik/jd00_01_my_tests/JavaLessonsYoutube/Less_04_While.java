@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube;
 
-public class Less_04_While {
+class Less_04_While {
     public static void main(String[] args) {
         int i = 5;
         int r = 0;

@@ -9,7 +9,7 @@ import java.util.Scanner;
 Создать массив из n случайных целых чисел из отрезка [0;n] и вывести его на экран.
 Создать второй массив только из чётных элементов первого массива, если они там есть, и вывести его на экран.
  */
-public class Task_6_13 {
+class Task_6_13 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n;

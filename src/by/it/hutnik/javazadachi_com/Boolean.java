@@ -1,6 +1,6 @@
 package by.it.hutnik.javazadachi_com;
 
-public class Boolean {
+class Boolean {
     public static void main(String[] args) {
         boolean bool = false;
         if(bool){

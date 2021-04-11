@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube;
 
-public class Less_12_ForEach {
+class Less_12_ForEach {
     public static void main(String[] args) {
         int [] array = new int [10];
         for (int i = 0; i < array.length; i++) {

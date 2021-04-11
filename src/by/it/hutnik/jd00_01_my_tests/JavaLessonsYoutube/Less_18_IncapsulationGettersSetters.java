@@ -2,7 +2,7 @@ package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube;
 
 import java.util.Scanner;
 
-public class Less_18_IncapsulationGettersSetters {
+class Less_18_IncapsulationGettersSetters {
     public static void main(String[] args) {
         WareHouse wareHouse = new WareHouse();
         Scanner scanner = new Scanner(System.in);

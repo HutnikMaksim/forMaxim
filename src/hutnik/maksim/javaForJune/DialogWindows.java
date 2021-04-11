@@ -2,7 +2,7 @@ package hutnik.maksim.javaForJune;
 
 import javax.swing.*;
 
-public class DialogWindows {
+class DialogWindows {
     public static void main(String[] args) throws InterruptedException {
         String text;
         String title;

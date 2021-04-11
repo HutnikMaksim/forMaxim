@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube;
 
-public class Less_24b_ClassObjectAndMetodToString {
+class Less_24b_ClassObjectAndMetodToString {
     public static void main(String[] args) {
         Humans humans = new Humans("Bob", 37);
         System.out.println(humans);

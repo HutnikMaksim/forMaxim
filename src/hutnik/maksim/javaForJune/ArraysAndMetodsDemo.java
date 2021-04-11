@@ -1,6 +1,6 @@
 package hutnik.maksim.javaForJune;
 
-public class ArraysAndMetodsDemo {
+class ArraysAndMetodsDemo {
     static void show1D(int[] nums){
         for (int x : nums){
             System.out.printf("%4d", x);

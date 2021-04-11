@@ -7,7 +7,7 @@ import java.util.Scanner;
 Например, среди чисел 8,5 и 11,45 ближайшее к десяти 11,45.
 
  */
-public class Task_2_2 {
+class Task_2_2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 //        double a = scanner.nextDouble();

@@ -1,6 +1,6 @@
 package hutnik.maksim.javaForJune.objects_klass_metods;
 
-public class MetodKlass {
+class MetodKlass {
     ObjektKlass obj_kl = new ObjektKlass();
     void setDouble (int a, char b){
         obj_kl.numer = a;

@@ -1,6 +1,6 @@
 package hutnik.maksim.javaForJune;
 
-public class MultiplicationTableDemo {
+class MultiplicationTableDemo {
     public static void main(String[] args) {
         int col = 9;
         int row = 9;

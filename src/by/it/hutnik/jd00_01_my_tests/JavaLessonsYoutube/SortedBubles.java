@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube;
 
-public class SortedBubles {
+class SortedBubles {
     public static void main(String[] args) {
         int[] array = new int[]{64, 42, 73, 41, 31, 53, 16, 24, 57, 42, 74, 55, 36};
         long before = System.currentTimeMillis();

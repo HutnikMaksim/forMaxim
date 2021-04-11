@@ -6,7 +6,7 @@ import java.util.Arrays;
 Создать двумерный массив из 8 строк по 5 столбцов в каждой из случайных целых чисел из отрезка [10;99].
 Вывести массив на экран.
  */
-public class Task_6_14 {
+class Task_6_14 {
     public static void main(String[] args) {
         int count = 0;
         int row = 8;

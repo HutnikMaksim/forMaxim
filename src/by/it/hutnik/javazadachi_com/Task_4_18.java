@@ -9,7 +9,7 @@ import java.util.Scanner;
 Если в распоряжении армии имеется 100 тыс. единиц боевой техники и каждая боевая машина имеет номер
 от 00001 до 99999, то сколько всего номеров придётся исключить?
  */
-public class Task_4_18 {
+class Task_4_18 {
     public static void main(String[] args) {
         int count = 0;
         for (int i = 4; i < 100000; i++) {

@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube;
 
-public class Less_20_Constructor {
+class Less_20_Constructor {
     public static void main(String[] args) {
         People people1 = new People("Max", 46);
         people1.print();

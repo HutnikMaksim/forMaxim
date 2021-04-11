@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube;
 
-public class Less_21_Static {
+class Less_21_Static {
     public static void main(String[] args) {
         Students students1 = new Students("Maxim", 46, 'B');
         Students students2 = new Students("Tania", 23, 'A');

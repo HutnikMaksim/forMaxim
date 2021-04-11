@@ -1,6 +1,6 @@
 package hutnik.maksim.javaForJune;
 
-public class Show2DArrayDemo {
+class Show2DArrayDemo {
     static void show(int[][] num){
         for (int i = 0; i < num.length; i++) {
             for (int j = 0; j < num[i].length; j++) {

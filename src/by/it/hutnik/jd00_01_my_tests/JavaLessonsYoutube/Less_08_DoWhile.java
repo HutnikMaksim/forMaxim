@@ -2,7 +2,7 @@ package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube;
 
 import java.util.Scanner;
 
-public class Less_08_DoWhile {
+class Less_08_DoWhile {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         int x;

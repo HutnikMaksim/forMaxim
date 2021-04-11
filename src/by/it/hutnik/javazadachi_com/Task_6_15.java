@@ -7,7 +7,7 @@ import java.util.Arrays;
 Вывести массив на экран. После на отдельной строке вывести на экран значение максимального элемента этого
 массива (его индекс не имеет значения).
  */
-public class Task_6_15 {
+class Task_6_15 {
     public static void main(String[] args) {
         int[][] mass = new int[5][8];
         int maxValue = 0;

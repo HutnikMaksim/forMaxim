@@ -1,6 +1,6 @@
 package hutnik.maksim.javaForJune;
 
-public class UsingSwitchDemo {
+class UsingSwitchDemo {
     static String getDay(int num){
         String day;
         switch (num){

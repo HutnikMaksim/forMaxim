@@ -2,7 +2,7 @@ package hutnik.maksim.javaForJune;
 
 import javax.swing.*;
 
-public class Peremennyie {
+class Peremennyie {
     public static void main(String[] args) {
         int number = 123;
         double x =32.1;

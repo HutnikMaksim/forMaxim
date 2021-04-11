@@ -1,6 +1,6 @@
 package hutnik.maksim.javaForJune.metod_Constructor;
 
-public class ObjContructor {
+class ObjContructor {
     int number;
     char symbol;
     ObjContructor(){

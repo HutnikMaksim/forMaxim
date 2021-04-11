@@ -2,7 +2,7 @@ package by.it.hutnik;
 
 import java.util.Scanner;
 
-public class ScalarUnicum {
+class ScalarUnicum {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         long scalar = scanner.nextInt();

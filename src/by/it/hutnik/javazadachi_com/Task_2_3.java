@@ -7,7 +7,7 @@ import java.util.Scanner;
 и выводить на экран вещественные корни квадратного уравнения ax²+bx+c=0, либо сообщать, что корней нет.
 
  */
-public class Task_2_3 {
+class Task_2_3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double a = scanner.nextDouble();

@@ -7,7 +7,7 @@ import java.util.Arrays;
 Определите какой элемент является в этом массиве максимальным и сообщите индекс
 его последнего вхождения в массив.
  */
-public class Task_6_8 {
+class Task_6_8 {
     public static void main(String[] args) {
         int[] mass = new int[12];
         int temp = -15;

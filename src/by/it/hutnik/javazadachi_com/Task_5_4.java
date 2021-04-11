@@ -6,7 +6,7 @@ import java.util.Scanner;
 4. Создать программу, которая будет проверять, является ли слово из пяти букв,
 введённое пользователем, палиндромом (примеры: «комок», «ротор»).
  */
-public class Task_5_4 {
+class Task_5_4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String str = scanner.next();

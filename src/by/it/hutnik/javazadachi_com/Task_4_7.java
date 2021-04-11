@@ -5,7 +5,7 @@ import java.util.Scanner;
 /*
 Создайте программу, вычисляющую факториал натурального числа n, которое пользователь введёт с клавиатуры.
  */
-public class Task_4_7 {
+class Task_4_7 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int x = scanner.nextInt();

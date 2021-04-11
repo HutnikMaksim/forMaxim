@@ -7,7 +7,7 @@ import java.util.Scanner;
 2. Натуральное положительное число записано в переменную n. Создайте программу,
 которая будет генерировать и выводить на экран целое псевдослучайное число из отрезка [-n;n].
  */
-public class Task_3_2 {
+class Task_3_2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();

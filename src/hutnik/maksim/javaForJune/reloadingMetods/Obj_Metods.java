@@ -1,6 +1,6 @@
 package hutnik.maksim.javaForJune.reloadingMetods;
 
-public class Obj_Metods {
+class Obj_Metods {
     int number;
     char symbol;
     void set(int n){

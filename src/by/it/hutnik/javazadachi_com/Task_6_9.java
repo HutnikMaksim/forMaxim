@@ -11,7 +11,7 @@ import java.util.Arrays;
 (каждый на отдельной строке), затем вывести количество целых элементов в третьем массиве.
 
  */
-public class Task_6_9 {
+class Task_6_9 {
     public static void main(String[] args) {
         int[] massA = new int[10];
         int[] massB = new int[10];

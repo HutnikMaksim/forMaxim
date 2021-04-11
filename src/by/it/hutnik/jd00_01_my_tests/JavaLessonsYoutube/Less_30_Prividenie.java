@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube;
 
-public class Less_30_Prividenie {
+class Less_30_Prividenie {
     public static void main(String[] args) {
         byte b = 120;
         int i = 323234;

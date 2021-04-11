@@ -1,6 +1,6 @@
 package hutnik.maksim.javaForJune.static_Metods_Polya;
 
-public class Runner {
+class Runner {
     public static void main(String[] args) {
         MyClass objA = new MyClass("Alfa");
         MyClass objB = new MyClass("Bravo");

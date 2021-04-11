@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube;
 
-public class Less_09_BreakContinue {
+class Less_09_BreakContinue {
     public static void main(String[] args) {
         int i = 0;
         while(true){

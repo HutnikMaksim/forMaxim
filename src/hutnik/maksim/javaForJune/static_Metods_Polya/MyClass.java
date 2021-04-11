@@ -1,6 +1,6 @@
 package hutnik.maksim.javaForJune.static_Metods_Polya;
 
-public class MyClass {
+class MyClass {
     static  int rost = 188;
     private static int count = 0;
     private int number;

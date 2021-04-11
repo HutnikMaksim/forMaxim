@@ -1,6 +1,6 @@
 package hutnik.maksim.javaForJune.objects_klass;
 
-public class GlawnyClass {
+class GlawnyClass {
     public static void main(String[] args) {
         Obj_Polya obj = new Obj_Polya();
         obj.name = obj.name+ " " + obj.word + " Gutnik";

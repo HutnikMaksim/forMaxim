@@ -2,7 +2,7 @@ package by.it.hutnik.javazadachi_com;
 
 import java.util.*;
 
-public class DinamicArrayAndSorted {
+class DinamicArrayAndSorted {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int x = scanner.nextInt();

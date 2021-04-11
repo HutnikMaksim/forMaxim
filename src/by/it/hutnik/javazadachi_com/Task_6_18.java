@@ -10,7 +10,7 @@ import java.util.Arrays;
 просты). При этом среди 15 примеров не должно быть повторяющихся (примеры 2*3 и 3*2 и им подобные пары
 считать повторяющимися).
  */
-public class Task_6_18 {
+class Task_6_18 {
     public static void main(String[] args) {
         String[][] rowStr = new String[][]{
             {"2x2=", "2x3=", "2x4=", "2x5=", "2x6=", "2x7=", "2x8=", "2x9="},

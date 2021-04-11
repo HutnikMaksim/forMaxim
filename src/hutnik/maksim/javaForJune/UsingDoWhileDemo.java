@@ -2,7 +2,7 @@ package hutnik.maksim.javaForJune;
 
 import javax.swing.*;
 
-public class UsingDoWhileDemo {
+class UsingDoWhileDemo {
     static String code(int number){
         String s = "";
         int n = number;

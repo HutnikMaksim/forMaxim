@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube;
 
-public class MyBubleSort {
+class MyBubleSort {
     public static void main(String[] args) {
         long before = System.currentTimeMillis();
         int[] massiv = new int[99];

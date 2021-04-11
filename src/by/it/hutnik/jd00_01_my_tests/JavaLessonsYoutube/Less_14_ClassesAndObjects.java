@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube;
 
-public class Less_14_ClassesAndObjects {
+class Less_14_ClassesAndObjects {
     public static void main(String[] args) {
         Persons persons1 = new Persons();
         persons1.name = "Max";

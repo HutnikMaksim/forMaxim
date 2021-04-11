@@ -1,6 +1,6 @@
 package hutnik.maksim.javaForJune.assigningArrays;
 
-public class AssigningArrayDemo {
+class AssigningArrayDemo {
     static void show (int[] nums){
         for (int s : nums){
             System.out.print("| " + s + " ");

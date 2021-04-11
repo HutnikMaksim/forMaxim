@@ -2,7 +2,7 @@ package hutnik.maksim.javaForJune;
 
 import javax.swing.*;
 
-public class UssingArrayDemo {
+class UssingArrayDemo {
     public static void main(String[] args) {
         String input, title = "Определение биномиального коэффициента";
         input = JOptionPane.showInputDialog(null, "Ввод значения нижнего инжекса", title, 3);

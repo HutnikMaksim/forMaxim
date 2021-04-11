@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube;
 
-public class Less_19_This {
+class Less_19_This {
     public static void main(String[] args) {
         Human human1 = new Human();
         human1.setName("Tom");

@@ -6,7 +6,7 @@ import java.util.Scanner;
 1. Создать программу, проверяющую и сообщающую на экран,
 является ли целое число записанное в переменную n, чётным либо нечётным.
  */
-public class Task_2_1 {
+class Task_2_1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();

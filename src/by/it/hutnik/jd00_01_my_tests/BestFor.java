@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests;
 
-public class BestFor {
+class BestFor {
     public static void main(String[] args) {
         int [] mas = {3,4,6,9,7,9,6,4,3};
         for (int x: mas) {

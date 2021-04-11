@@ -2,7 +2,7 @@ package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube;
 
 import java.util.Date;
 
-public class Less_23_PrintF {
+class Less_23_PrintF {
     public static void main(String[] args) {
         Date date = new Date();
 

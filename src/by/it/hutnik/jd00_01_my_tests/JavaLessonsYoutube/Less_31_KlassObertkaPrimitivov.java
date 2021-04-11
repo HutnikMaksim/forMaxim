@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube;
 
-public class Less_31_KlassObertkaPrimitivov {
+class Less_31_KlassObertkaPrimitivov {
     public static void main(String[] args) {
 
         int x = 11;

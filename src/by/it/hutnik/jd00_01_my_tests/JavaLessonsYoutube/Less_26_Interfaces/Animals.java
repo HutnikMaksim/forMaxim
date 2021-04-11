@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube.Less_26_Interfaces;
 
-public class Animals implements Info{
+class Animals implements Info{
     public int id;
 
     public Animals(int id){

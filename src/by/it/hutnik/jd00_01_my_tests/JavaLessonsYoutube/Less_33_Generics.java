@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Less_33_Generics {
+class Less_33_Generics {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int ind = scanner.nextInt();

@@ -1,6 +1,6 @@
 package by.it.training;
 
-public class Car extends Thread implements CarParking{
+class Car extends Thread implements CarParking{
 
 static Integer count=0;
 

@@ -2,7 +2,7 @@ package hutnik.maksim.javaForJune;
 
 import javax.swing.*;
 
-public class Multi_if {
+class Multi_if {
     public static void main(String[] args) {
         String input, txt, file, Sonya, Maxim, Natasha, Katz;
         ImageIcon img;

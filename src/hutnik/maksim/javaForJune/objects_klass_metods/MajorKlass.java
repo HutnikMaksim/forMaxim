@@ -2,7 +2,7 @@ package hutnik.maksim.javaForJune.objects_klass_metods;
 
 import javax.swing.*;
 
-public class MajorKlass {
+class MajorKlass {
     public static void main(String[] args) {
         MetodKlass metodKlass1 = new MetodKlass();
         MetodKlass metodKlass2 = new MetodKlass();

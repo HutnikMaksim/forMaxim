@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests;
 
-public class Randoman {
+class Randoman {
     public static void main(String[] args) {
         int a = 0;
         for (int i = 0; i < 10; i++) {

@@ -1,6 +1,6 @@
 package hutnik.maksim.javaForJune.reloadingMetods;
 
-public class Runner {
+class Runner {
     public static void main(String[] args) {
         Obj_Metods obj_metods1 = new Obj_Metods();
         Obj_Metods obj_metods2 = new Obj_Metods();

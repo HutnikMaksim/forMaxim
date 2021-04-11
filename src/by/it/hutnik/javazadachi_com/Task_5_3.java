@@ -6,7 +6,7 @@ import java.util.Scanner;
 3. Создать программу, которая будет выводить на экран меньшее по модулю из трёх введённых пользователем
 вещественных чисел.
  */
-public class Task_5_3 {
+class Task_5_3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double a = 0.0;

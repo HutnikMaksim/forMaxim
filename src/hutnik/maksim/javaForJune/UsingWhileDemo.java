@@ -2,7 +2,7 @@ package hutnik.maksim.javaForJune;
 
 import javax.swing.*;
 
-public class UsingWhileDemo {
+class UsingWhileDemo {
     static int dekoder(String code){
         int n = code.length();
         int s = 0;

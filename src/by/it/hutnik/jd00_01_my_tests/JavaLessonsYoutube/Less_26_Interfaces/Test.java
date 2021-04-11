@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube.Less_26_Interfaces;
 
-public class Test {
+class Test {
     public static void main(String[] args) {
         Animals animals = new Animals(1);
         Persons persons = new Persons("Den");

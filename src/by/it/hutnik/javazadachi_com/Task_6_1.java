@@ -4,7 +4,7 @@ package by.it.hutnik.javazadachi_com;
 отделяя один элемент от другого пробелом, а затем в столбик (отделяя один элемент от другого началом новой строки).
 Перед созданием массива подумайте, какого он будет размера.
  */
-public class Task_6_1 {
+class Task_6_1 {
     public static void main(String[] args) {
         int[] mass = new int[10];
         int j = 0;

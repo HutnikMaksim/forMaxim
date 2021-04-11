@@ -6,7 +6,7 @@ import java.util.Scanner;
 5. В переменных a и b лежат положительные длины катетов прямоугольного треугольника.
 Вычислить и вывести на экран площадь треугольника и его периметр.
  */
-public class Task_3_5 {
+class Task_3_5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double a = scanner.nextDouble();

@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube.Less_26_Interfaces;
 
-public class Persons implements Info{
+class Persons implements Info{
     public String name;
 
     public Persons(String name) {

@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube.Less_32_UpcastingDawncasting;
 
-public class Test {
+class Test {
     public static void main(String[] args) {
         Dog dog = new Dog();
         // Upcasting - восходящее преобразование

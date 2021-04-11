@@ -3,7 +3,7 @@ package hutnik.maksim.javaForJune;
 import javax.swing.*;
 import java.util.Random;
 
-public class UsingForArrayDemo {
+class UsingForArrayDemo {
     public static void main(String[] args) {
         int size = 10;
         Random random = new Random();

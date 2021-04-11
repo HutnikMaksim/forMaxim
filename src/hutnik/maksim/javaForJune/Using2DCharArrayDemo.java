@@ -2,7 +2,7 @@ package hutnik.maksim.javaForJune;
 
 import javax.swing.*;
 
-public class Using2DCharArrayDemo {
+class Using2DCharArrayDemo {
     public static void main(String[] args) {
         int[] size = {5, 11, 3 ,7}; // объявление и инициализация одномерного int массива size
         char[][] symbols = new char[size.length][]; // объявление и инициализация двухмерного char массива symbols

@@ -7,7 +7,7 @@ import java.util.Scanner;
 2. Создать программу, которая будет вычислять и выводить на экран сумму двух целых чисел, введённых пользователем.
 Если пользователь некорректно введёт хотя бы одно из чисел, то сообщать об ошибке.
  */
-public class Task_5_2 {
+class Task_5_2 {
     public static void main(String[] args) {
         Scanner scaner = new Scanner(System.in);
         int a = 0, b = 0, c = 0;

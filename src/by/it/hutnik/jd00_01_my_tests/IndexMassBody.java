@@ -2,7 +2,7 @@ package by.it.hutnik.jd00_01_my_tests;
 
 import javax.swing.*;
 
-public class IndexMassBody {
+class IndexMassBody {
     public static void main(String[] args) {
         double mass, heigh, bmi;
         String res;

@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube;
 
-public class Less_15_Metods {
+class Less_15_Metods {
     public static void main(String[] args) {
         Person persons1 = new Person();
         persons1.name = "Max";

@@ -7,7 +7,7 @@ import java.util.Arrays;
 Определите какой элемент встречается в массиве чаще всего и выведите об этом сообщение на экран.
 Если два каких-то элемента встречаются одинаковое количество раз, то не выводите ничего.
  */
-public class Task_6_10 {
+class Task_6_10 {
     public static void main(String[] args) {
         int[] mass = new int[11];
         int a = 0;

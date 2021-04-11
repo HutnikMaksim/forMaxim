@@ -10,7 +10,7 @@ import java.util.Scanner;
 либо сообщить, что эти суммы модулей равны. Если пользователь введёт неподходящее число, то программа должна
 требовать повторного ввода до тех пор, пока не будет указано корректное значение.
  */
-public class Task_6_11 {
+class Task_6_11 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int a;

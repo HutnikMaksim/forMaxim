@@ -8,7 +8,7 @@ import java.util.Scanner;
 что число составное и проверку продолжать не нужно). Также учтите, что наименьший делитель натурального числа n,
 если он вообще имеется, обязательно располагается в отрезке [2; √n].
  */
-public class Task_4_9 {
+class Task_4_9 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         if(scanner.hasNextInt()){

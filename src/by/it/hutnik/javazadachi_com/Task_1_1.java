@@ -9,7 +9,7 @@ import java.util.Scanner;
 21 / 8 = 2 и 5 в остатке
 
  */
-public class Task_1_1 {
+class Task_1_1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int q = scanner.nextInt();

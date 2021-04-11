@@ -7,7 +7,7 @@ import java.util.Arrays;
 в двух отдельных строках. Посчитайте среднее арифметическое элементов каждого массива и сообщите,
 для какого из массивов это значение оказалось больше (либо сообщите, что их средние арифметические равны).
  */
-public class Task_6_5 {
+class Task_6_5 {
     public static void main(String[] args) {
         int[] mass1 = new int[5];
         double averageMass1 = 0;

@@ -2,7 +2,7 @@ package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube;
 
 import java.util.Scanner;
 
-public class Less_10_Switch {
+class Less_10_Switch {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         System.out.print("Enter your age:");

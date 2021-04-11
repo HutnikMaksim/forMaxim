@@ -5,7 +5,7 @@ package by.it.hutnik.javazadachi_com;
 что справа от двоеточия (например, 02:20, 11:11 или 15:51).
 
  */
-public class Task_4_17 {
+class Task_4_17 {
     public static void main(String[] args) {
         int count = 0;
         for (int i = 0; i < 24; i++) { // перебор часов

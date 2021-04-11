@@ -7,7 +7,7 @@ package by.it.hutnik.javazadachi_com;
 счастливого билета и теперь раздумывает, как много сувениров потребуется.
 С помощью программы подсчитайте сколько счастливых билетов в одном рулоне?
  */
-public class Task_4_15 {
+class Task_4_15 {
     public static void main(String[] args) {
         long timeStart = System.currentTimeMillis();
         int a = 0;

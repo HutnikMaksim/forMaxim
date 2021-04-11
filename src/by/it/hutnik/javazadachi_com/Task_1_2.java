@@ -14,7 +14,7 @@ import java.util.Scanner;
 4. Создаем и присваиваем 2 переменным b и c значения деления по модулю.
 5. Выводим результат на экран.
  */
-public class Task_1_2 {
+class Task_1_2 {
     public static void main(String[] args) {
 //        Scanner scanner = new Scanner(System.in);
 //        int n = scanner.nextInt();

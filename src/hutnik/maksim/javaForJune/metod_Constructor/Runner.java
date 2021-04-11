@@ -1,6 +1,6 @@
 package hutnik.maksim.javaForJune.metod_Constructor;
 
-public class Runner {
+class Runner {
     public static void main(String[] args) {
         ObjContructor objC1 = new ObjContructor();
         ObjContructor objC2 = new ObjContructor(200 , 'B');

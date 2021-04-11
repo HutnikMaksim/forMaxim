@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube;
 
-public class Less_02_vars {
+class Less_02_vars {
     public static void main(String[] args) {
         byte b = 127;
         short sh = 32767;

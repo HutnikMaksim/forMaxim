@@ -4,7 +4,7 @@ package by.it.hutnik.javazadachi_com;
 Создать программу, которая переставит числа в переменных таким образом, чтобы при выводе на экран
 последовательность a, b и c оказалась строго возрастающей.
  */
-public class Task_2_6 {
+class Task_2_6 {
     public static void main(String[] args) {
         int a = 34;
         int b = 21;

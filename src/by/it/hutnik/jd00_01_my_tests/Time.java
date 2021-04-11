@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests;
 
-public class Time {
+class Time {
     public static void main(String[] args) {
         long timeMillis = System.currentTimeMillis();
         int a = 0;

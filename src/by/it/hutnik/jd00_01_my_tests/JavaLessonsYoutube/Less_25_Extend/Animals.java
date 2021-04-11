@@ -1,6 +1,6 @@
 package by.it.hutnik.jd00_01_my_tests.JavaLessonsYoutube.Less_25_Extend;
 
-public class Animals {
+class Animals {
     public void eat(){
         System.out.println("Animal eating");
     }

@@ -2,7 +2,7 @@ package hutnik.maksim.javaForJune;
 
 import javax.swing.*;
 
-public class UsingListDemo {
+class UsingListDemo {
     public static void main(String[] args) {
         String[] txt = {"Соня", "Наташа", "Максим", "Кац"};
         String[] files = {"Sonya.jpg", "Natasha.jpg", "Maxim.jpg", "Katz.jpg"};

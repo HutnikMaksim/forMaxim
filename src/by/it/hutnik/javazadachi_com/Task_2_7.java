@@ -16,7 +16,7 @@ import java.util.Random;
  далее оно должно выводиться на экран (для Петрова) и на следующей строке (для сотрудниц) должна выводиться фраза
  о количестве полных часов, содержащихся в n секундах.
  */
-public class Task_2_7 {
+class Task_2_7 {
     public static void main(String[] args) {
         Random rnd = new Random();
         int sec = rnd.nextInt(28800);
