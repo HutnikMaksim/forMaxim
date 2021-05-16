@@ -1,7 +1,7 @@
 package hutnik.maksim.javaForJune.Listing_8.Listing_8_8_My;
 
 class MyClass {
-    private int number;
+    int number;
     char word;
     MyClass(int n, char c){
         number = n;
