@@ -14,20 +14,19 @@ class MyThread extends Thread{
         start();
     }
     private void line(){
-        char s;
+        String s;
         if(state){
-            s = '-';
-        } else s = '*';
-        for(int i = 1; i <= 35; i++) {
-            System.out.print(s);
-        }
-        System.out.println();
+            s = "+++++++++++++++++++++++++++++++++++";
+        } else s = "-----------------------------------";
+        System.out.println(s);
+        //System.out.println();
     }
+
     public void run(){
+
         for(int i = 1; i <= count; i++) {
             synchronized(obj){
-                line();
-                System.out.println("Поток " + getName() + ": исходное значение " + obj.number);
+                System.out.println("Поток " + getName() + ": исходное значение \t" + obj.number);
                 try {
                     Thread.sleep(time);
                 } catch(InterruptedException e){
@@ -38,7 +37,7 @@ class MyThread extends Thread{
                 } else {
                     obj.number--;
                 }
-                System.out.println("Поток " + getName() + ": новое значение " + obj.number);
+                System.out.println("Поток " + getName() + ": новое значение \t" + obj.number);
                 line();
             }
         }
