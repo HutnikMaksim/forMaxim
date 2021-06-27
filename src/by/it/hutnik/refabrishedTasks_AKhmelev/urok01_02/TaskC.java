@@ -16,12 +16,9 @@ package by.it.hutnik.refabrishedTasks_AKhmelev.urok01_02;
 При выводе результатов в консоль отделяйте элементы строк одиночными
 пробелами, а сами строки - переносами \n
  */
-import by.it._examples_.jd01_08._01_Card.CardRunner;
-
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class TaskC {
+class TaskC {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
@@ -29,7 +26,7 @@ public class TaskC {
         System.out.println("Summa = " + step2(step3(step1(n))));
     }
 
-    public static int[][] step1(int n){
+    static int[][] step1(int n){
         boolean plus;
         boolean minus;
         int[][] arr = new int[n][n];
@@ -54,7 +51,7 @@ public class TaskC {
         return arr;
     }
 
-    public static int step2(int[][] arr) {
+    static int step2(int[][] arr) {
         int min = 0;
         int max = 0;
         int sum = 0;
@@ -82,40 +79,69 @@ public class TaskC {
     }
 
     static int[][] step3(int [][] arr){
-        int maxValue = Integer.MIN_VALUE;
+        int maxValue = Integer.MIN_VALUE; // Присвоить минимальное значение полю maxValue
         boolean flag = false;
 
-        int[] row = new int[arr.length];
-        int[] col = new int[arr[0].length];
-        //int[][] resArr = new int[row.length][col.length];
-        int[][] massive = new int[arr.length][arr[0].length];
-        for (int i = 0; i < arr.length; i++) {
+        int[] row = new int[arr.length]; // Создать одномерный массив row размером arr.length (5)
+        int[] col = new int[arr[0].length]; // Создать одномерный массив col размером arr[0].length (5)
+
+        int rowCount = 0; // Счётчики строк и столбцов после удаления максимальных значений в массиве
+        int colCount = 0;
+
+
+        for (int i = 0; i < arr.length; i++) { // Перебираем массив arr ...
             for (int j = 0; j < arr[i].length; j++) {
-                if(arr[i][j] > maxValue){
-                    maxValue = arr[i][j];
+                if(arr[i][j] > maxValue){ // И если значение элемента в массиве больше maxValue...
+                    maxValue = arr[i][j]; // Присваиваем maxValue значение элемента массива
                 }
             }
         }
+
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[0].length; j++) {
                 if(arr[i][j] == maxValue){
-                    row[i] = i + 1;
-                    col[j] = j + 1;
-                    System.out.println("row = " + row[i] + " column = " + col[j]);
+                    row[i] = 1;
+                    col[j] = 1;
                 }
             }
         }
-        for (int i = 0; i < arr.length; i++) {
+
+        for (int i = 0; i < row.length; i++) {
+            if(row[i] == 0){
+                rowCount++;
+            }
+        }
+
+        for (int j = 0; j < col.length; j++) {
+            if(col[j] == 0){
+                colCount++;
+            }
+        }
+
+        int[][] arrEnd = new int[rowCount][colCount];
+        int iR = 0;
+        int jC = 0;
+        int temp = 0;
+
+        System.out.println("++++++++++++++");
+
+        for (int i = 0; i < arr.length; i++) { // Перебираем массив arr ...
             for (int j = 0; j < arr[0].length; j++) {
                 if(row[i] != 0){
+                    iR--;
                     flag = true;
                     break;
                 }
                 if(col[j] == 0){
-                    //resArr[i][j] = arr[i][j];
-                    System.out.printf("%4s ", arr[i][j]);
+                    System.out.printf("%4s", arr[i][j]);
+                    temp = arr[i][j];
+                    arrEnd[iR][jC] = temp;
+                    jC++;
                 }
             }
+            jC = 0;
+            iR++;
+
             if(flag == false){
                 System.out.println();
             }
@@ -123,58 +149,18 @@ public class TaskC {
 
         }
 
+        System.out.println("_______________________________");
+        for (int k = 0; k < arrEnd.length; k++) {
+            for (int l = 0; l < arrEnd[0].length; l++) {
+                System.out.print(arrEnd[k][l] + "\t");
+            }
+            System.out.println();
+        }
+        System.out.println("________________________________");
+
+        System.out.println();
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-//        int maxValue = 0;
-//        boolean flag = false;
-//        int[] massRow = new int[arr.length];
-//        int[] massCol = new int[arr[0].length];
-//
-//        for (int i = 0; i < arr.length; i++) { // перебор матрицы для вычисления максимального значения
-//            for (int j = 0; j < arr[i].length; j++) {
-//                if(arr[i][j] > maxValue){
-//                    maxValue = arr[i][j];
-//                }
-//            }
-//        }
-//
-//        for (int i = 0; i < arr.length; i++) {
-//            for (int j = 0; j < arr[i].length; j++) {
-//                if(arr[i][j] == maxValue){
-//                    if(flag == false){
-//                        massRow[i] = i + 1;
-//                        flag = true;
-//                    }
-//                }
-//                if(arr[i][j] == maxValue){
-//                    massCol[j] = j + 1;
-//                }
-//            }
-//            flag = false;
-//        }
-//
-//        for (int i = 0; i < arr.length; i++) {
-//            for (int j = 0; j < arr[i].length; j++) {
-//                if(massRow[i] != 0){
-//                    break;
-//                }
-//                if(massCol[j] == 0)
-//                System.out.printf("%4s", arr[i][j]);
-//            }
-//            System.out.println();
-//        }
-       return arr;
+       return arrEnd;
     }
 }

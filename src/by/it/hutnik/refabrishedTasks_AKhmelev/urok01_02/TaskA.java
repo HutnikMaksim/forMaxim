@@ -28,7 +28,8 @@ public class TaskA {
             sum += arr[i];
         }
         double average = sum / 10.0;
-        System.out.println(average);
+        System.out.println("Среднее значение массива: " + average);
+        System.out.print("Значения которые строго меньше среднего: ");
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] < average) {
                 System.out.print(arr[i] + " ");
@@ -43,11 +44,13 @@ public class TaskA {
                 min = arr[i];
             }
         }
+        System.out.print("Индексы минимальных значений массива: ");
         for (int i = arr.length - 1; i >= 0 ; i--) {
             if(arr[i] == min){
                 int index = i;
                 System.out.print(index + " ");
             }
         }
+        System.out.println();
     }
 }

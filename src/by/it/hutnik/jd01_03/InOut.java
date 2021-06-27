@@ -1,6 +1,6 @@
 package by.it.hutnik.jd01_03;
 
-public class InOut {
+class InOut {
     static double[ ] getArray(String line){
         String[] strArr = line.split(" ");
         double [] res= new double[strArr.length];

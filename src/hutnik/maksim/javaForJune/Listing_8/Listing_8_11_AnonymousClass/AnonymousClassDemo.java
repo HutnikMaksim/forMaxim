@@ -10,6 +10,7 @@ class AnonymousClassDemo {
         };
         obj.show();
         obj.hello();
+
         new Base("Зелёный"){
             void hello(){
                 System.out.println("Анонимный объект");
@@ -19,5 +20,17 @@ class AnonymousClassDemo {
                 show();
             }
         }.showAll();
+
+        new Base("Чёрный"){
+            @Override
+            void hello() {
+                System.out.println("Второй анонимный объект");
+            }
+
+            void showOneMore() {
+                hello();
+                show();
+            }
+        }.showOneMore();
     }
 }
