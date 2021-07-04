@@ -10,7 +10,7 @@ import java.util.Hashtable;
 
 class MyFrame extends JFrame implements ItemListener, ChangeListener {
     private JSpinner SP;
-    private JSpinner.DefaultEditor editor;
+    private JSpinner.DefaultEditor editor; // Стандартный редактор спиннера
     private String nameOfFont = "Arial";
     private int size = 15;
     private JSlider SL;
@@ -26,18 +26,19 @@ class MyFrame extends JFrame implements ItemListener, ChangeListener {
     private final String path = "d:/Загрузки/Лекции по JAVA/";
     private ImageIcon[] imgs;
     private void setSpinnerFont(){
-        int style = Font.PLAIN;
-        if(IT.isSelected()){
-            style |= Font.ITALIC;
+        int style = Font.PLAIN; // Инициализация стандартного шрифта, можно и так: int style = 0;
+        if(IT.isSelected()){ // Если выбран шрифт ITALIC
+            style |= Font.ITALIC; // Тоже самое, что style = style|Font.ITALIC; результат: Font.PLAIN|Font.ITALIC
         }
-        if(BL.isSelected()){
-            style |= Font.BOLD;
+        if(BL.isSelected()){ // Если выбран шрифт BOLD
+            style |= Font.BOLD; // style = Font.PLAIN|Font.BOLD
         }
+        /* Применение шрифта Ariel, обычный, кегль 15, к полю спиннера с помощью стандартного редактора спиннера */
         editor.getTextField().setFont(new Font(nameOfFont, style,size));
     }
     @Override
     public void itemStateChanged(ItemEvent e) {
-        setSpinnerFont();
+        setSpinnerFont(); // При изменении состояния спиннера, обращаемся к методу setSpinnerFont()
     }
 
     @Override
@@ -78,6 +79,7 @@ class MyFrame extends JFrame implements ItemListener, ChangeListener {
         B = new JButton("OK"); // Инициализация кнопки"ОК"
         B.setBounds(10,120,150,30); // Положение и размер кнопки "ОК"
         B.setFocusPainted(false); // Снятие фокусировки на кнопке
+        B.setToolTipText("Ничёссе!!!");
         B.addActionListener(e -> System.exit(0)); // Инициализация действия при клике мышкой на кнопке "ОК"
         pnl.add(B); // Добавление кнопки на панель
         add(pnl); // Добавление панели в главное окно программы
