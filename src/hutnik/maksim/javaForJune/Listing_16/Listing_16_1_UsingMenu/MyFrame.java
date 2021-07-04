@@ -11,26 +11,26 @@ import java.io.IOException;
 
 class MyFrame extends JFrame implements ActionListener {
     private int state;
-    private JPanel pnl;
-    private Border bdr;
-    private Color[] clr = new Color[3];
-    private JButton btn;
-    private JMenu content, view, program;
-    private ImageIcon[] imgs;
-    private String[] engNames = {"Fox", "Wolf", "Bear", "Enot"};
-    private String[] cyrNames = {"Лиса", "Волк", "Медведь", "Енот"};
-    private String[] files;
-    private String path = "d:/Загрузки/Лекции по JAVA/";
-    private JLabel lbl;
-    private JTextPane tp;
-    private JMenuBar mb;
-    private JMenuItem about, exit;
-    private JMenuItem[] animals;
-    private JCheckBoxMenuItem color;
-    private JRadioButtonMenuItem light, dark,ordinary;
-    private JToolBar tb;
-    private MyButton exitBtn, nextBtn, prevBtn, startBtn;
-    private JPopupMenu pm;
+    private final JPanel pnl;
+    private final Border bdr;
+    private final Color[] clr = new Color[3];
+    private final JButton btn;
+    private final JMenu content, view, program;
+    private final ImageIcon[] imgs;
+    private final String[] engNames = {"Fox", "Wolf", "Bear", "Enot"};
+    private final String[] cyrNames = {"Лиса", "Волк", "Медведь", "Енот"};
+    private final String[] files;
+    private final String path = "d:/Загрузки/Лекции по JAVA/";
+    private final JLabel lbl;
+    private final JTextPane tp;
+    private final JMenuBar mb;
+    private final JMenuItem about, exit;
+    private final JMenuItem[] animals;
+    private final JCheckBoxMenuItem color;
+    private final JRadioButtonMenuItem light, dark,ordinary;
+    private final JToolBar tb;
+    private final MyButton exitBtn, nextBtn, prevBtn, startBtn;
+    private final JPopupMenu pm;
     class MyButton extends JButton{
         MyButton(String txt){
             super(new ImageIcon(path + txt));
